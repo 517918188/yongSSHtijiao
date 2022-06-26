@@ -1,0 +1,101 @@
+.miaosha{
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding-left: 14px;
+}
+.miaosha_list{
+    float: left;
+}
+.miaosha_list ul li{
+    float: left;
+}
+.miaosha_list ul li a{
+    display: block;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 30px;
+    color: #000;
+}
+.miaosha_con{
+    float: left;
+}
+.miaosha_con ul li{
+    float: left;
+}
+.miaosha_con ul li a{
+    display: block;
+    line-height: 45px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.miaosha_con ul li:last-child a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.miaosha_hd{
+    height: 150px;
+    background-color: pink;
+}
+.miaosha_hd img{
+    width: 100%;
+    height: 100%;
+}
+.miaosha_bd ul li{
+    width: 360px;
+    height: 600px;
+    float: left;
+    margin-right: 30px;
+}
+.miaosha_bd .jiage div{
+    float: left;
+    height: 50px;
+}
+.miaosha_bd .jiage .xianjia{
+    color: #c81523;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.miaosha_bd .jiage .yuanjia{
+    color: darkgray;
+    font-size: 12px;
+    text-decoration: line-through;
+    font-weight: 700;
+    line-height: 53px;
+    padding-left: 3px;
+}
+.miaosha_bd .jindu>div{
+    float: left;
+}
+.jindu .bar{
+    width: 100px;
+    height: 15px;
+    border: red 1px solid;
+    border-radius: 7px;
+    margin: 1px 5px;
+    padding: 0;
+}
+.jindu .bar .bar_in{
+    width: 80%;
+    height: 100%;
+    background-color: red;
+    border: red 1px solid;
+    border-radius: 7px;
+}
+.jindu span{
+    color: red;
+    font-weight: 700;
+}
+.miaosha_bd .qianggou a{
+    display: block;
+    background-color: #c81523;
+    width: 360px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
